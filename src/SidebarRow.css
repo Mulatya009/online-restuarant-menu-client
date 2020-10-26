@@ -1,0 +1,47 @@
+.sidebarRow__button {
+  display: flex;
+  align-items: center;
+  padding: 2vh;
+  width: 100vh;
+}
+
+.sidebarRow__button > p {
+  font-size: 13px;
+  color: #606060;
+  font-weight: 500;
+}
+
+.sidebarRow__button > .MuiSvgIcon-root {
+  margin-right: 10px;
+  color: #606060;
+  font-size: large !important;
+}
+
+.sidebarRow__button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  transition: 0.5s ease;
+}
+
+.sidebarRow__button:hover > .MuiSvgIcon-root {
+  transition: 0.5s ease;
+  color: red;
+}
+
+.sidebarRow__button:hover > p {
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+
+/* .sidebarRow__button.selected {
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.sidebarRow__button.selected > .MuiSvgIcon-root {
+  color: red;
+}
+
+.sidebarRow__button.selected > p {
+  font-weight: bold;
+} */

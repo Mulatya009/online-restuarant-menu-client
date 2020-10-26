@@ -1,0 +1,77 @@
+.food__cover {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.food__favorite {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: coral;
+  font-size: xx-large !important;
+  cursor: pointer;
+}
+
+.food__isFavorite {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: coral;
+
+  font-size: xx-large !important;
+  cursor: pointer;
+}
+
+.food__photo {
+  min-width: 291px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.food > h5 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.food > p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.food__addToTable {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.food__addToTable > .food__price {
+  color: coral;
+}
+
+.food__addToTable > .food__price > strong {
+  font-size: large;
+  font-weight: 800;
+}
+
+.food__addToTable > .food__addToTableButton {
+  margin: 10px;
+  background-color: coral;
+  color: white;
+  text-transform: inherit;
+}
+
+.food__addToTable > .food__inBasket {
+  margin: 10px;
+  text-transform: inherit;
+  background-color: lightgray;
+}
+
+.food__addToTable > button:hover {
+  color: coral;
+  transition: 1s ease;
+}

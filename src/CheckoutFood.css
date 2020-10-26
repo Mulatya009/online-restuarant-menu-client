@@ -1,0 +1,84 @@
+.checkoutFood {
+  margin: 20px 0 20px 0;
+  display: flex;
+}
+
+.checkoutFood__photo {
+  height: 170px;
+  width: 250px;
+  left: 0;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.checkoutFood__isFavorite,
+.checkoutFood__favorite {
+  cursor: pointer;
+}
+
+.checkoutFood__info {
+  padding: 5px 15px 0 0;
+  flex: 1;
+}
+
+.checkoutFood__info > .checkoutFood__infoHeader {
+  display: flex;
+  justify-content: flex-start;
+  color: coral;
+  margin-bottom: 10px;
+}
+
+.checkoutFood__info > .checkoutFood__infoHeader > .MuiSvgIcon-root {
+  color: coral;
+  margin-left: 20px;
+}
+
+.checkoutFood__info > .checkoutFood__price {
+  color: coral;
+  margin-top: 10px;
+}
+
+.checkoutFood__info > p {
+  color: #606060;
+}
+
+.checkoutFood__info > button {
+  margin-top: 10px;
+  color: #606060;
+  text-transform: inherit;
+}
+
+.checkoutFood__info > button:hover {
+  transition: 1s ease;
+  color: coral;
+}
+
+.checkoutFood__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+
+.checkoutFood__buttons strong {
+  background-color: transparent;
+}
+
+.checkoutFood__buttons strong > .MuiSvgIcon-root {
+  color: coral;
+  cursor: pointer;
+  margin: 3px;
+  right: 0;
+  /* 
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75); */
+}
+
+.checkoutFood__buttons > strong > .MuiSvgIcon-root:hover {
+  color: lightgray;
+  transition: 0.5s ease;
+}

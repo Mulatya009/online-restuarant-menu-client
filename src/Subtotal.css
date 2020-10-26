@@ -1,0 +1,28 @@
+.subtotal__bill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtotal__bill > p > small {
+  font-size: 12px;
+  font-weight: 700;
+  color: gray;
+}
+
+.subtotal__bill > p > strong {
+  color: coral;
+  margin-right: 16px;
+}
+
+.subtotal__button {
+  margin-right: 0;
+}
+
+.subtotal__button > button {
+  width: 10vw;
+  font-size: small;
+  background-color: coral;
+  color: white;
+  text-transform: inherit;
+}

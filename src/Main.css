@@ -1,0 +1,65 @@
+.main {
+  flex: 0.7;
+  margin-right: 10px;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/19/eb/8f/67/the-kulan-cuisine-is.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.6; */
+  padding: 20px;
+  max-height: 85vh;
+}
+
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__header > h2 {
+  color: coral;
+  background-color: white;
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.main__header > a > p {
+  background-color: coral;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.main__header > a > p:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: coral;
+  transition: 1s ease;
+  font-weight: bolder;
+}
+
+.main__header > p > strong {
+  font-size: large;
+}
+
+.main__favorites {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 3rem;
+
+  height: 700px;
+  overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main__favorites::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main__favorites {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
